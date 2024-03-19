@@ -1,0 +1,64 @@
+body{
+  background-image: url('/img/3.png');
+  background-size: cover;
+}
+
+.header{
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.disabled{
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.btn{
+  background-image: linear-gradient(rgb(255, 77, 32),rgb(211, 0, 0));
+  position: absolute;
+  border-radius: 50%;
+  color: white;
+  margin: 500px;
+  margin-left: 906px;
+  cursor: pointer;
+}
+
+#total-pokemons{
+  font-family: "Madimi One", sans-serif;
+  font-size: 35px;
+}
+
+#loading {
+  background-color: transparent;
+  border-top: 10px solid rgb(66,139,202);
+  border-right: 10px solid rgb(66,139,202);
+  border-bottom: 10px solid rgb(66,139,202);
+  border-left: 10px solid rgba(66,139,202,.2);
+  transform: translateZ(0);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: .8s;
+  animation-name: spinner-loading
+}
+@keyframes spinner-loading{
+0% {
+    transform: rotate(0deg)
+} to {
+    transform: rotate(1turn)
+}
+}
+
+#loading,#loading:after{
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -32px;
+  margin-left: -32px;
+  border-radius: 50%;
+  z-index: 2
+}
+

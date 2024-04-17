@@ -5,7 +5,7 @@ import { obtainPokemon, obtainPokemonList } from './src/service/pokeService.js';
 import { showPager } from './src/ui/pager.js';
 import { showPokemonList } from './src/ui/pokemonListUi.js';
 import { showPokemon } from './src/ui/pokemonCardUi.js';
-import { obtenerParametrosDeURL } from './utilities.js';
+import { obtainUrlParameters } from './src/utilities/utilities.js';
 import { showTotalPokemons } from './src/ui/headerUi.js';
 
 export async function initialization() {
@@ -23,7 +23,7 @@ async function handlePage(page) {
     offset = POKEMONS_PER_PAGE * (page - 1);
     actualPage = page;
   } else {
-    const parameters = obtenerParametrosDeURL(page);
+    const parameters = obtainUrlParameters(page);
     offset = parameters.offset;
     limit = parameters.limit;
     actualPage = Math.ceil(parameters.offset / parameters.limit) + 1;

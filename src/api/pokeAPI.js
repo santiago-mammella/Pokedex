@@ -1,4 +1,5 @@
-const URL = 'https://pokeapi.co/api/v2/pokemon/';
+export const URL = 'https://pokeapi.co/api/v2/pokemon/';
+export const POKEMONS_PER_PAGE = 21;
 
 export async function obtainNewPokemon(id) {
   if (id === undefined) {
@@ -7,6 +8,6 @@ export async function obtainNewPokemon(id) {
   return (await fetch(`${URL}${id}`)).json();
 }
 
-export async function obtainNewPokemonList(limit, offset) {
+export async function obtainNewPokemonList(limit = POKEMONS_PER_PAGE, offset = 0) {
   return (await fetch(`${URL}?limit=${limit}&offset=${offset}`)).json();
 }

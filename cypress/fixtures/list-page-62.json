@@ -1,0 +1,91 @@
+{
+  "count": 1302,
+  "next": null,
+  "previous": "https://pokeapi.co/api/v2/pokemon/?offset=1260&limit=21",
+  "results": [
+    {
+      "name": "maushold-family-of-three",
+      "url": "https://pokeapi.co/api/v2/pokemon/10257/"
+    },
+    {
+      "name": "tatsugiri-droopy",
+      "url": "https://pokeapi.co/api/v2/pokemon/10258/"
+    },
+    {
+      "name": "tatsugiri-stretchy",
+      "url": "https://pokeapi.co/api/v2/pokemon/10259/"
+    },
+    {
+      "name": "squawkabilly-blue-plumage",
+      "url": "https://pokeapi.co/api/v2/pokemon/10260/"
+    },
+    {
+      "name": "squawkabilly-yellow-plumage",
+      "url": "https://pokeapi.co/api/v2/pokemon/10261/"
+    },
+    {
+      "name": "squawkabilly-white-plumage",
+      "url": "https://pokeapi.co/api/v2/pokemon/10262/"
+    },
+    {
+      "name": "gimmighoul-roaming",
+      "url": "https://pokeapi.co/api/v2/pokemon/10263/"
+    },
+    {
+      "name": "koraidon-limited-build",
+      "url": "https://pokeapi.co/api/v2/pokemon/10264/"
+    },
+    {
+      "name": "koraidon-sprinting-build",
+      "url": "https://pokeapi.co/api/v2/pokemon/10265/"
+    },
+    {
+      "name": "koraidon-swimming-build",
+      "url": "https://pokeapi.co/api/v2/pokemon/10266/"
+    },
+    {
+      "name": "koraidon-gliding-build",
+      "url": "https://pokeapi.co/api/v2/pokemon/10267/"
+    },
+    {
+      "name": "miraidon-low-power-mode",
+      "url": "https://pokeapi.co/api/v2/pokemon/10268/"
+    },
+    {
+      "name": "miraidon-drive-mode",
+      "url": "https://pokeapi.co/api/v2/pokemon/10269/"
+    },
+    {
+      "name": "miraidon-aquatic-mode",
+      "url": "https://pokeapi.co/api/v2/pokemon/10270/"
+    },
+    {
+      "name": "miraidon-glide-mode",
+      "url": "https://pokeapi.co/api/v2/pokemon/10271/"
+    },
+    {
+      "name": "ursaluna-bloodmoon",
+      "url": "https://pokeapi.co/api/v2/pokemon/10272/"
+    },
+    {
+      "name": "ogerpon-wellspring-mask",
+      "url": "https://pokeapi.co/api/v2/pokemon/10273/"
+    },
+    {
+      "name": "ogerpon-hearthflame-mask",
+      "url": "https://pokeapi.co/api/v2/pokemon/10274/"
+    },
+    {
+      "name": "ogerpon-cornerstone-mask",
+      "url": "https://pokeapi.co/api/v2/pokemon/10275/"
+    },
+    {
+      "name": "terapagos-terastal",
+      "url": "https://pokeapi.co/api/v2/pokemon/10276/"
+    },
+    {
+      "name": "terapagos-stellar",
+      "url": "https://pokeapi.co/api/v2/pokemon/10277/"
+    }
+  ]
+}
